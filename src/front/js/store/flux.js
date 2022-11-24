@@ -30,7 +30,6 @@ const getState = ({ getStore, getActions, setStore }) => {
 					// don't forget to return something, that is how the async resolves
 					return data;
 				}catch(error){
-					console.log("Error loading message from backend", error)
 				}
 			},
 			changeColor: (index, color) => {
